@@ -1,0 +1,99 @@
+.imgsearch{
+    cursor:pointer;
+    height: 20px;
+}
+
+body{
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   width:100vw;
+   height:100vh;
+   background-color: #2f2f2f;
+   background-image: url("./assets/sunn.webp");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+img{
+    padding:8px
+}
+.container{
+    background-color:rgb(216, 214, 205);
+    padding:20px;
+    align-items: center;
+    border-radius: 6%;
+}
+.cont{
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+.tempe, .cityy, .countryy
+{
+    padding: 2px;
+    text-transform: uppercase;
+}
+.tempe,.cityy, .countryy{
+    padding: 5px;
+    color:dimgrey;
+    font-weight: 800;
+    font-size: larger;
+
+}
+.cord 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    gap: 60px;
+    text-transform: uppercase;
+    color:darkslategray;
+}
+.cord div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texty
+{  
+  display: flex;
+  gap: 50px;
+  text-align: center;
+  padding: 5px;
+  
+}
+.data
+{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    color:darkslategray;
+}
+.bo{
+    border:none;
+    border-radius: 5px;
+    height: 30px;
+    overflow: hidden;
+
+}
+.divi{
+    padding: 10px;
+    color:rgba(135, 40, 65, 0.906)
+
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wt{
+    padding: 10px;
+    color:rgba(42, 28, 8, 0.868);
+}
